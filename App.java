@@ -5,15 +5,16 @@ public class App {
     public static void main(String[] args) throws Exception {
       //armazenar vários valores do mesmo tipo
     String[] opcoes = new String[] { 
-        "Anime RickOfMor",
-        "Série Game of Thrones",
-        "Filme Vingadores",
+        "Home",
+        "Lista",
+        "Contato",
+        "Sobre",
         "Sair"
     };
 
     int opcoeEscolhida = 0;
 
-    while(opcoeEscolhida != 3){
+    while(opcoeEscolhida != 5){
       opcoeEscolhida = JOptionPane.showOptionDialog(
         null,
         "O que você deseja assistir", 
@@ -25,7 +26,7 @@ public class App {
          0
          );
 
-         if (opcoeEscolhida != 3){
+         if (opcoeEscolhida != 5){
             String mensagem = "Você assistir " + opcoes[opcoeEscolhida];
             JOptionPane.showMessageDialog(null,mensagem);
          }
