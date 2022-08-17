@@ -7,6 +7,7 @@ public class App {
     String[] opcoes = new String[] { 
         "Home",
         "Lista",
+        "Desejo",
         "Contato",
         "Sobre",
         "Sair"
@@ -14,7 +15,7 @@ public class App {
 
     int opcoeEscolhida = 0;
 
-    while(opcoeEscolhida != 5){
+    while(opcoeEscolhida != 6){
       opcoeEscolhida = JOptionPane.showOptionDialog(
         null,
         "O que você deseja assistir", 
@@ -26,7 +27,7 @@ public class App {
          0
          );
 
-         if (opcoeEscolhida != 5){
+         if (opcoeEscolhida != 6){
             String mensagem = "Você assistir " + opcoes[opcoeEscolhida];
             JOptionPane.showMessageDialog(null,mensagem);
          }
