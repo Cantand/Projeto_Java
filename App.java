@@ -19,7 +19,7 @@ public class App {
       opcoeEscolhida = JOptionPane.showOptionDialog(
         null,
         "O que você deseja assistir", 
-        "FlexCh",
+        "Insights",
         JOptionPane.DEFAULT_OPTION,
         JOptionPane.QUESTION_MESSAGE, 
          null,  
