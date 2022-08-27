@@ -18,7 +18,7 @@ public class App {
     while(opcoeEscolhida != 6){
       opcoeEscolhida = JOptionPane.showOptionDialog(
         null,
-        "O que você deseja assistir", 
+        "Bem vindo Na loja", 
         "Boa Compra!",
         JOptionPane.DEFAULT_OPTION,
         JOptionPane.QUESTION_MESSAGE, 
