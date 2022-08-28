@@ -33,5 +33,22 @@ public class App {
          }
     }
 
+    /*Vamos trabalha valores na matemática */
+
+      int Contador = 0;
+      JOptionPane.showMessageDialog(null,Contador,"Matemática" , JOptionPane.QUESTION_MESSAGE);
+      Contador %= 10;
+      JOptionPane.showMessageDialog(null,Contador,"Matemática" , JOptionPane.QUESTION_MESSAGE);
+      Contador %= 10;
+
+      Contador = 0;
+      JOptionPane.showMessageDialog(null,Contador,"Contador" , JOptionPane.QUESTION_MESSAGE);
+      Contador %= 10;
+      //Exemple somar na matemática 
+      int numeroA= 6;
+      int numeroB= 5;
+      int  resultado = (int)Math.sqrt(numeroA);
+      JOptionPane.showMessageDialog(null,resultado);
+
   }
 }
