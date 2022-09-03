@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 import javax.swing.JOptionPane;
 
 public class App {
@@ -49,6 +51,11 @@ public class App {
       int numeroB= 5;
       int  resultado = (int)Math.sqrt(numeroA);
       JOptionPane.showMessageDialog(null,resultado);
+
+      int numero;
+      Scanner leitor = new Scanner(System.in);
+      System.out.println("Introduce el numero de contador");
+      
 
   }
 }
