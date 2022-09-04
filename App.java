@@ -61,4 +61,28 @@ public class App {
           }  
     }
   }
+
+  
 }
+
+String aux = JOptionPane.showInputDialog(null, "Forneça o número do mês.");
+if (aux != null) {
+    {
+    int mes = Integer.parseInt(aux);
+    if (mes >= 1 && mes < 12) {
+        JOptionPane.showMessageDialog(null, "Número do mês válido!\n" + mes);
+    } else{
+        JOptionPane.showMessageDialog(null, "Número do mês inválido!\n" + mes);
+
+
+    }
+
+ } try {
+    
+  } catch (NumberFormatException erro) {
+      JOptionPane.showMessageDialog(null, "Digite apenas valores inteiros."+ erro);
+  }
+} else {
+  JOptionPane.showMessageDialog(null, "Operação cancelada.");
+}
+System.exit(0);
