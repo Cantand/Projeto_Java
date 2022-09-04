@@ -33,37 +33,26 @@ public class App {
             String mensagem = "Você assistir " + opcoes[opcoeEscolhida];
             JOptionPane.showMessageDialog(null,mensagem);
          }
-    }
 
-    /*Vamos trabalha valores na matemática */
+         Object[] op = {"Masculino", "Feminino"};
+         String resp = (String) JOptionPane.showInputDialog(null, "Selecione o sexo:\n",
+          "Pesquisa",
+           JOptionPane.PLAIN_MESSAGE, null, op, "Masculino");
+         if (resp == null) {
+           JOptionPane.showMessageDialog(null, "Você pressionou Cancelar");
+         }
+         if(resp == "Masculino") {
+           JOptionPane.showMessageDialog(null, "Você é homem.");
+         }
+   
+         if (resp == "Feminino") {
+           JOptionPane.showMessageDialog(null, "Você é mulher.");
+         }
+         System.exit(0);
+         }  
+   }
 
-    import javax.swing.JOptionPane;
 
-    public class App {
-       
-        public static void main(String[] args) throws Exception {
-         
-          Object[] op = {"Masculino", "Feminino"};
-          String resp = (String) JOptionPane.showInputDialog(null, "Selecione o sexo:\n",
-           "Pesquisa",
-            JOptionPane.PLAIN_MESSAGE, null, op, "Masculino");
-          if (resp == null) {
-            JOptionPane.showMessageDialog(null, "Você pressionou Cancelar");
-          }
-          if(resp == "Masculino") {
-            JOptionPane.showMessageDialog(null, "Você é homem.");
-          }
-    
-          if (resp == "Feminino") {
-            JOptionPane.showMessageDialog(null, "Você é mulher.");
-          }
-          System.exit(0);
-          }  
-    }
-  }
-
-  
-}
 
 String aux = JOptionPane.showInputDialog(null, "Forneça o número do mês.");
 if (aux != null) {
