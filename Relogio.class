@@ -1,0 +1,23 @@
+//Simulação de um relógio
+public class Relogio{
+
+    int horas, minutos, segundo;
+    for (horas = 0; horas < 24; horas++) {
+         for (minutos = 0; minutos < 60; minutos++) {
+             for (segundo = 0; segundo < 60; segundo++) {
+                 JOptionPane.showMessageDialog(null,horas + "h:" + minutos + "min:" + segundo + "s:");
+                try {
+                  Thread.sleep(1000);
+                  if (segundo == 10) {
+                       System.exit(0);
+                  }
+              } catch(InterruptedException erro) {
+                 erro.toString();
+              }
+
+            }
+         }
+    }
+    System.exit(0);
+} 
+

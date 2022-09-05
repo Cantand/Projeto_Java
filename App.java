@@ -33,55 +33,11 @@ public class App {
             String mensagem = "Você assistir " + opcoes[opcoeEscolhida];
             JOptionPane.showMessageDialog(null,mensagem);
          }
-
-         Object[] op = {"Masculino", "Feminino"};
-         String resp = (String) JOptionPane.showInputDialog(null, "Selecione o sexo:\n",
-          "Pesquisa",
-           JOptionPane.PLAIN_MESSAGE, null, op, "Masculino");
-         if (resp == null) {
-           JOptionPane.showMessageDialog(null, "Você pressionou Cancelar");
-         }
-         if(resp == "Masculino") {
-           JOptionPane.showMessageDialog(null, "Você é homem.");
-         }
-   
-         if (resp == "Feminino") {
-           JOptionPane.showMessageDialog(null, "Você é mulher.");
-         }
-         System.exit(0);
-         }  
-   }
-
-
-
-String aux = JOptionPane.showInputDialog(null, "Forneça o número do mês.");
-if (aux != null) {
-    {
-    int mes = Integer.parseInt(aux);
-    if (mes >= 1 && mes < 12) {
-        JOptionPane.showMessageDialog(null, "Número do mês válido!\n" + mes);
-    } else{
-        JOptionPane.showMessageDialog(null, "Número do mês inválido!\n" + mes);
-
+      }
 
     }
+        
+}  
 
- } try {
-    
-  } catch (NumberFormatException erro) {
-      JOptionPane.showMessageDialog(null, "Digite apenas valores inteiros."+ erro);
-  }
-} else {
-  JOptionPane.showMessageDialog(null, "Operação cancelada.");
-}
-System.exit(0);
 
-//Demostra o laço while
-char ch;
-// exibe o alfabeto usado um laço while
-ch = 'A';
-while ( ch <= 'Z' ) {
-  JOptionPane.showMessageDialog(null,ch);
-  ch++;
-  
-}
+
