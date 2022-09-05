@@ -75,3 +75,13 @@ if (aux != null) {
   JOptionPane.showMessageDialog(null, "Operação cancelada.");
 }
 System.exit(0);
+
+//Demostra o laço while
+char ch;
+// exibe o alfabeto usado um laço while
+ch = 'A';
+while ( ch <= 'Z' ) {
+  JOptionPane.showMessageDialog(null,ch);
+  ch++;
+  
+}
