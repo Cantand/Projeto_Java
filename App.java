@@ -7,7 +7,7 @@ public class App {
     String[] opcoes = new String[] { 
         "Home",
         "Sobre mim",
-        "Desejo",
+        "Paginas",
         "Contato",
         "Sobre",
         "Sair"
