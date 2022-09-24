@@ -33,7 +33,10 @@ public class App {
          }
       }
 
+
     }
+
+    Sexo x = new Sexo();
         
 }  
 
