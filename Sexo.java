@@ -3,10 +3,22 @@ import javax.swing.JOptionPane;
 public class Sexo {
 
     Object[] op = {"Masculino", "Feminino"};
+    /**
+     *
+     */
     String resp = (String) JOptionPane.showInputDialog(null, "Selecione o sexo:\n",
      "Pesquisa",
       JOptionPane.PLAIN_MESSAGE, null, op, "Masculino");
-    if (resp == null) /**
+   (resp == null) /**
+     * @param op
+     * @param resp
+     */
+    public Sexo(Object[] op, String resp) {
+      this.op = op;
+      this.resp = resp;
+    }
+
+  /**
      * @return the resp
      */
     public String getResp() {
