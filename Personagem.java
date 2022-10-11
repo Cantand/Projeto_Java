@@ -12,7 +12,7 @@ public class Personagem {
 
 
         switch (personagem) {
-            case "Goku":
+            case "goku":
                 origem = "Planeta Sayajin";
                 nomeImagem = "goku-icone.png";
                 break;
