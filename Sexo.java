@@ -34,7 +34,7 @@ public class Sexo {
 
     {
       JOptionPane.showMessageDialog(null, "Você pressionou Cancelar");
-    }
+    };
     if(resp == "Masculino") {
       JOptionPane.showMessageDialog(null, "Você é homem.");
     }
