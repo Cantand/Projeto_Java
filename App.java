@@ -6,7 +6,7 @@ public class App {
       //armazenar vários valores do mesmo tipo
     String[] opcoes = new String[] { 
         "Home",
-        "Sobre mim",
+        "Cardapio",
         "Paginas",
         "Contato",
         "Sobre",
