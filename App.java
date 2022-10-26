@@ -32,6 +32,14 @@ public class App {
             JOptionPane.showMessageDialog(null,mensagem);
          }
       }
+       //variaveis tipo primitivo
+      /*
+      (tipo Inteiro)
+       byte 
+       short 
+       int 
+       long
+       */
 
 
     }
