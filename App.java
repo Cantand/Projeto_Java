@@ -15,7 +15,7 @@ public class App {
 
     int opcoeEscolhida = 0;
 
-    while(opcoeEscolhida != 7){
+    while(opcoeEscolhida != 6){
       opcoeEscolhida = JOptionPane.showOptionDialog(
         null,
         "Bem vindo Na loja", 
